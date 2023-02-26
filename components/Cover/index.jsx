@@ -7,8 +7,9 @@ const Cover = ({ className, title }) => {
   return (
     <div className={cl(className, styles.cover)}>
       <h1 className={styles.title}>
-        Adithyan <br/> Jayakumar
+        Thoughts <br/> Unleashed
       </h1>
+      <p>By Adithyan Jayakumar</p>
     </div>
   );
 };
