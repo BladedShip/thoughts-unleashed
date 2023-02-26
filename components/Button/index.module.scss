@@ -1,0 +1,18 @@
+.button {
+    background: #2c2c2c;
+    padding: 0.5em 2em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: black;
+
+    &:hover {
+        background: #7a7a7a;
+        color: #ffffff;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+    }
+}
