@@ -1,6 +1,8 @@
 .content {
     font-size: 1rem;
     line-height: 1.4;
+    max-width: 800px;
+    display: flex;
 
     p,
     figure,
@@ -8,6 +10,8 @@
     ul,
     ol {
         margin-bottom: 1.5em;
+        font-size: 1.2rem;
+        line-height: 160%;
     }
 
     img {
