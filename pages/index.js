@@ -14,7 +14,7 @@ import Head from "next/head";
 
 import { loadData } from "./api/post";
 
-const LOAD_MORE_STEP = 1;
+const LOAD_MORE_STEP = 4;
 
 const Home = ({ initialPosts, total }) => {
   const [posts, setPosts] = useState(initialPosts);
