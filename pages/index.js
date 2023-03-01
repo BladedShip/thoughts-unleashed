@@ -8,6 +8,7 @@ import {
   PostGrid,
   Post,
   Button,
+  Loader,
 } from "@/components";
 import Head from "next/head";
 
@@ -70,6 +71,7 @@ const Home = ({ initialPosts, total }) => {
           )}
         </div>
       </Section>
+      {loading && <Loader/>}
     </div>
   );
 };

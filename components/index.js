@@ -8,3 +8,4 @@ export { default as ScreenEgg } from "./ScreenEgg";
 export { default as Section } from "./Section";
 export { default as Socials } from "./Socials";
 export { default as Title } from "./Title";
+export { default as Loader } from "./Loader";
