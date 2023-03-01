@@ -14,14 +14,14 @@ import Head from "next/head";
 
 import { loadData } from "./api/post";
 
-const LOAD_MORE_STEP = 8;
+const LOAD_MORE_STEP = 1;
 
 const Home = ({ initialPosts, total }) => {
   const [posts, setPosts] = useState(initialPosts);
   const [loaded, setLoaded] = useState(LOAD_MORE_STEP);
   const [loading, setLoading] = useState(false);
 
-  const showLoadingButton = total > loaded;
+  const showLoadingButton = total > loaded && !loading;
 
   const getMorePosts = async () => {
     setLoading(true);
